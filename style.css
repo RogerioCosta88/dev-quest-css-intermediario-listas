@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul .none{
+    list-style-type: none;
+}
+
+ul .grego {
+    list-style-type: lower-greek;
+}
+
+ul .decimal {
+    list-style-type: decimal-leading-zero;
+}
+
+ul .image {
+    list-style-image: url('./src/image/icons8-check-48.png');
+    list-style: square url(./src/image/icons8-check-48.png);
+
+}
+
+ul {
+    list-style-position: inside;
+}
+
+ul .inside {
+    border: 1px solid black;
+}
